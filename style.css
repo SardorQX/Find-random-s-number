@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: indigo;
+    color: #fff;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.random-number{
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    background-color: #fff;
+    color: indigo;
+    font-weight: 600;
+}
+
+button{
+    padding: 10px 25px;
+    font-size: 50px;
+    color: indigo;
+}
+input{
+    height: 100px;
+    font-size: 50px;
+    width: 100px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
