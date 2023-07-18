@@ -52,7 +52,7 @@ reset.addEventListener("click",()=>{
      scoreSpan.textContent="10";
      score=10;
      inputNumber.value="";
-
+     checkerBtn.disabled=true;
 })
 
 
