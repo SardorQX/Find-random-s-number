@@ -1,6 +1,9 @@
 'use strict';
-
-let random = Math.trunc(Math.random() * 20 + 1);
+let random
+const create_random={
+     random = Math.trunc(Math.random() * 20 + 1);
+}
+create_random()
 let score = 10;
 
 // constants
@@ -53,6 +56,7 @@ reset.addEventListener("click",()=>{
      score=10;
      inputNumber.value="";
      checkerBtn.disabled=true;
+     create_random()
 })
 
 
